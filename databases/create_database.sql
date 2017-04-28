@@ -1,0 +1,1 @@
+CREATE DATABASE wirelike CHARACTER SET utf8;
