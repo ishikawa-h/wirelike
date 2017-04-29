@@ -47,22 +47,13 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
   font-weight: normal;
 }
 
 .panel {
   vertical-align: top;
   display: inline-block;
-}
-
-
-h1, h2, h3 {
-  font-size: 100%;
-}
-
-.panel {
-  display: inline-block;
-  vertical-align: top;
 }
 
 .container {
@@ -258,4 +249,40 @@ h1, h2, h3 {
 
 .home section.info dl dt {
   margin: 0 15px 0 0;
+}
+
+
+/*
+ ** media （ブレイクポイントは http://scene-live.com/page.php?page=97 を参照）
+ */
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 94%;
+    margin: 0 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+    width: 100%;
+  }
+
+  #sub {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+
+  .home section.items ul li {
+    width: calc(96% / 2);
+    margin: 0 4% 25px 0;
+  }
+  
+  .home section.items ul li:nth-child(3n) {
+    margin: 0 4% 25px 0;
+  }
+
+  .home section.items ul li:nth-child(2n) {
+    margin: 0 0 25px;
+  }
 }

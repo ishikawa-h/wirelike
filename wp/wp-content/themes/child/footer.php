@@ -1,4 +1,4 @@
-<nav class="container">
+<nav>
   <ul class="">
     <li class="panel"><a class="" href="">●●●●</a></li><!--
  --><li class="panel"><a class="" href="">●●●●</a></li><!--
